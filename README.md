@@ -36,7 +36,8 @@ pip3 install tensorflow
 pip3 install tensorboardX
 pip3 install tqdm
 ```
-
+## Algorithms
++ [DQN](https://github.com/ssxy00/DeepRL/tree/master/DQN)
 
 
 
