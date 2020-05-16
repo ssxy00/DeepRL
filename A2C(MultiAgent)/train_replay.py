@@ -74,8 +74,6 @@ def cli_main():
     parser.add_argument("--save_interval", default=1000, type=int, help="save checkpoints interval")
     parser.add_argument("--lr", default=0.001, type=float)
     parser.add_argument("--gamma", default=0.99)
-    parser.add_argument("--epsilon", default=0.1)
-    parser.add_argument("--tau", default=0.01, type=float)
     parser.add_argument("--early_stop", action="store_true")
     parser.add_argument("--disable_actions", action="store_true")
     parser.add_argument("--entropy", action="store_true")

@@ -65,16 +65,11 @@ def cli_main():
     parser.add_argument("--log_dir", type=str,
                         help="path to save model")
     parser.add_argument("--seed", default=1, type=int, help="Random seed")
-    parser.add_argument("--max_memory_size", default=20000, type=int)
-    parser.add_argument("--episodes_before_training", default=200, type=int)
     parser.add_argument("--n_episodes", default=25000, type=int)
     parser.add_argument("--episode_max_length", default=300, type=int)
-    parser.add_argument("--batch_size", default=256, type=int, help="Batch size")
     parser.add_argument("--save_interval", default=1000, type=int, help="save checkpoints interval")
     parser.add_argument("--lr", default=0.001, type=float)
     parser.add_argument("--gamma", default=0.99)
-    parser.add_argument("--epsilon", default=0.1)
-    parser.add_argument("--tau", default=0.01, type=float)
     parser.add_argument("--early_stop", action="store_true")
     parser.add_argument("--disable_actions", action="store_true")
 
