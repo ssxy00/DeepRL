@@ -39,6 +39,8 @@ pip3 install tqdm
 ## Algorithms
 + [DQN](https://github.com/ssxy00/DeepRL/tree/master/DQN)
 + [A2C](https://github.com/ssxy00/DeepRL/tree/master/A2C)
++ [MADDPG](https://github.com/ssxy00/DeepRL/tree/master/MADDPG)
+
 
 
 
