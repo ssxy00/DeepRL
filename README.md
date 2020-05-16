@@ -40,7 +40,7 @@ pip3 install tqdm
 + [DQN](https://github.com/ssxy00/DeepRL/tree/master/DQN)
 + [A2C](https://github.com/ssxy00/DeepRL/tree/master/A2C)
 + [MADDPG](https://github.com/ssxy00/DeepRL/tree/master/MADDPG)
-
++ [A2C(MultiAgent)](https://github.com/ssxy00/DeepRL/tree/master/A2C(MultiAgent))
 
 
 
